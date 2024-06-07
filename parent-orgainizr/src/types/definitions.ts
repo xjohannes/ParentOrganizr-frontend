@@ -9,7 +9,7 @@ interface IWatch {
     dateUpdated: Date;
 }
 
-interface IParent {
+interface IPupil {
     id: number;
     firstName: string;
     lastName: string;
@@ -19,7 +19,7 @@ interface IParent {
     dateUpdated: Date;
 }
 
-interface IPupil {
+interface IParent {
     id: number;
     firstName: string;
     lastName: string;

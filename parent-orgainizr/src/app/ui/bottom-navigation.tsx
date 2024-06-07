@@ -8,13 +8,13 @@ import {
 } from '@heroicons/react/24/outline';
 
 const links = [
-    { name: 'Hjem', href: '/watches', icon: HomeIcon },
+    { name: 'Hjem', href: '/', icon: HomeIcon },
     {
         name: 'Bytte vakt',
-        href: '/watches/changeWatch',
+        href: '/watch',
         icon: ArrowsRightLeftIcon,
     },
-    { name: 'Ønsker bytte', href: '/watches/otherAvailable', icon: UserGroupIcon },
+    { name: 'Ønsker bytte', href: '/profile', icon: UserGroupIcon },
 ];
 
 const BottomNav: FC = () => {
